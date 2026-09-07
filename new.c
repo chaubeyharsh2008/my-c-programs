@@ -5,10 +5,8 @@ int main()
     int roll;
 
     roll = 101;
-
-    float A1 = 85.50;
-    float A2 = 90.00;
-    float A3 = 78.25;
+ 
+    float A1 = 85.50 ,  A2 = 90.00 , A3 = 78.25;
     char A = 'A';
 
     printf("---------REPORT CARD--------------\n");
@@ -17,7 +15,7 @@ int main()
     printf("Subject 2\t: %.2f\n",A2);
     printf("Subject 3\t: %.2f\n",A3);
     printf("Grade\t\t: %c\n",A);
-    printf("---------------------------------");
+    printf("----------------------------------");
 
     return 0;
 }
